@@ -12,6 +12,7 @@ python3 -m venv env
 py -m venv env
 ```
 
+Make sure the Images folder is populated with images labeled in integer order.
 Then, install the required python packages with
 ```bash
 pip3 install -r requirements.txt
