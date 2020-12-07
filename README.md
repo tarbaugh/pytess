@@ -14,7 +14,7 @@ python3 -m venv env
 py -m venv env
 ```
 
-Make sure the Images folder is populated with images labeled in integer order.
+Make sure the Images folder is populated with images labeled in integer order (currently .tiff, but this can be changed in the cv.py file).
 Then, install the required python packages with
 ```bash
 pip3 install -r requirements.txt
