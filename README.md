@@ -14,9 +14,9 @@ python3 -m venv env
 py -m venv env
 ```
 
-Make sure the Images folder is populated with images labeled in integer order 
-The default file type is .tiff, but this can be changed with -T/--type in the CLI (use -h for more info).
-Then, install the required python packages with
+Make sure the Images folder is populated with images labeled in integer order.  
+The default file type is .tiff, but this can be changed with -T/--type in the CLI (use -h for more info).  
+Then, install the required python packages with  
 ```bash
 pip3 install -r requirements.txt
 ```
