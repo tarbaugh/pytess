@@ -2,6 +2,8 @@
 
 Start by cloning the git repository and making sure you have python 3.9.0 installed
 
+Make sure you have Tesseract OCR installed as well, this can be found at https://github.com/tesseract-ocr/tessdoc
+
 I recommend using a virtual enviroment with venv
 (Mac/Linux)
 ```bash
@@ -21,3 +23,4 @@ Next, run
 ```python
 python3 cv.py
 ```
+Click and drag to highlight the text you would like to include in your summary and press esc to continue!
