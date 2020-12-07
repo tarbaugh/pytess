@@ -7,12 +7,17 @@ from PyPDF2 import PdfFileWriter, PdfFileReader
 from PIL import Image
 import numpy as np
 import pytesseract
+import argparse
 import glob
 import cv2
 
+parser = argparse.ArgumentParser()
+parser.add_argument("-T", "--type", help="Specify file type without '.', ex. 'tiff', 'jpeg'", default="tiff")
+args = parser.parse_args()
+
 LANGUAGE = 'english'
 SENTENCES_COUNT = 10
-IMAGE_PATH = 'Images/*.tiff'
+IMAGE_PATH = 'Images/*.{0}'.format(args.type)
 
 images = sorted(glob.glob(IMAGE_PATH))
 drawing = False
